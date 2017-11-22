@@ -1,0 +1,34 @@
+Q: How did viewing a diff between tow versions of a file help you see the bug that was introduced?
+A: It only displayed the lines that were different, so I only had to
+	look at the characters in those two lines.
+	
+Q: How could having easy access to the entire history of a file make you a more efficient programmer
+	in the long term?
+A: I would be able to look back at how I fixed mistakes, and also would have access to code for older
+	features that may be obsolete, but the code examples can be used for a new feature in a different
+	project.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do
+	in Git, vs having versions automatically saved, like Google Docs does?
+A: Pros - I know to save at points that make sense from a compile standpoint, so each commit should
+	theoretically be able to compile.
+	Cons - I may forget to commit enough, I also may change a file that I shouldn't and include that
+	in a commit while it would make sense to be saved in a different commit.
+	
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one
+	commit, while others, like Google Docs, treat each file separately?
+A: Git is designed for software version control, and usually software requires multiple files.
+	Essentially, Git is saving a version of the program.  Google Docs is assuming that each document
+	is standalone, so it is designed to only track that single document.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: You can search for the commit you want by reading the commit message for commits and choosing the
+	appropriate commit.  Then you can take the previous commit SHA and compare it to the commit in
+	questions using the git diff function.
+	
+Q: How might using version control make you more confident to make changes that could break something?
+A: I wouldn't be afraid of changing and deleting code because the code doesn't really get deleted.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: I would like to continue using it to complete this course, but I look forward to figuring out how to 
+	use it in conjunction with my IDE's so I can maintain versions of projects I'm working on.
