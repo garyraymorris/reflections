@@ -1,3 +1,11 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 A: You tell git to create the hidden directories it will need to track the files in that directory.
 
+Q: How is the staging area different from the working directory and the repository? What value do
+	you think it offers?
+A: The staging area is different from the working directory because it only contains the files that
+	will be added to the repository after the commit, so some files in the working directory may be
+	left alone and untracked. It is different than the repository in that it doesn't hold the different
+	versions of files.  I think it is a good earmark for the files that the user wants to commit, and
+	while also leaving alone the files that the user doesn't want to commit.
+	
