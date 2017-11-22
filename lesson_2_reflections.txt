@@ -9,3 +9,11 @@ A: The staging area is different from the working directory because it only cont
 	versions of files.  I think it is a good earmark for the files that the user wants to commit, and
 	while also leaving alone the files that the user doesn't want to commit.
 	
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: Using git diff you can verify the changes in the files and exclude any files/changes that wouldn't
+	make sense in the commit
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would
+	branches help?
+A: If I wanted to re-work the code knowing that it may introduce new bugs or have features malfunction
+
